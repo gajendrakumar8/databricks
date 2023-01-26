@@ -1,0 +1,29 @@
+step-1-- connect to sql promat and check database status
+select * from v$database
+step-2- check Listener status.
+step-3- check alert and trace log file.
+step-4-Check top activities on database
+(insert/update/backup) (OEM Monitoring tool)
+step-5-Blocking and Deadlock
+kill the session with application owner
+Step-6- Check all the session in database
+Monitor all the session(running and ideal and stop)
+step-7- Compare with Past performance report.
+step-8-Increase Memory,CPU,Resources
+(Check the database growth,number of user)
+step-9- Check the Optimize the Query
+step-10- check for symoultaneous backup
+(it should be run on non bussins hours),
+steps-11- check AWR,ASH and addm reports
+(AWR report will check)
+steps-12-Check Archive Destination disk usage
+(du_sh with archive path run kar ke check karna hai usage kitana hai 70,80 below hona chihiye)
+step-13- wait Event-- multiple type wait event.
+step-14 oracle bug -apply patch
+(check with oracle team for issue and apply the patch and try to apply quartly patch on oracle S/w)
+step-15- check if tables scan is full, Index required
+
+
+
+
+
